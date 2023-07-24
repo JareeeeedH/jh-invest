@@ -1,0 +1,80 @@
+*{
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #dfdddd;
+}
+
+
+.first-col{
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.first-img{
+    width: 100%;
+    /* height: auto; */
+    /* background-image: url("./photos/first-text.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;  */
+}
+
+.second-img{
+    width: 100%;
+    /* background-image: url("./photos/teachers.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center;  */
+}
+
+.btn-col{
+    width: 100%;
+    position: relative;
+    padding: 60px 0;
+
+    cursor:pointer
+}
+
+.line-outline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 150px;
+    height: 50px;
+    background-color: #1d9650;
+    border-radius: 3px;
+}
+
+
+.line-left{
+    width:40%;
+}
+
+.line-right{
+    width:60%;
+    color: white;
+}
+
+.line-icon{
+    height: 49px;
+}
+
+.footer{
+    padding: 50px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

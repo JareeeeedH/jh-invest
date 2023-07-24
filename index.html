@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>capitalfund</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <div class="first-col">
+        <img class="first-img" src="./photos/first-text.jpg">
+        <img class="second-img" src="./photos/teachers.png">
+        <img class="second-img" src="./photos/teachers.png">
+    </div>
+    <div class="btn-col">
+        <div class="line-outline">
+            <div class="line-left">
+                <img class="line-icon" src="./photos/icon-line.png" alt="">
+
+            </div>
+            <div id="lineAdd" class="line-right">
+                我要訂閱
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <img src="./photos/fotter1.png">
+        <img src="./photos/footer2.png">
+    </footer>
+</body>
+</html>
+
+<script>
+    let lineBtn = document.getElementById('lineAdd');
+
+    lineBtn.addEventListener("click", (event) => {
+        // console.log(event);
+        window.open('https://line.me/R/ti/p/@jh-gold')
+    });
+
+    console.log(lineBtn)
+</script>
